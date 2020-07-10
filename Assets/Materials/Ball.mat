@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ball
-  m_Shader: {fileID: 4800000, guid: b471017f6683aa647af529737699895f, type: 3}
+  m_Shader: {fileID: 4800000, guid: 62e0133fd05181f4388425036124f4b1, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

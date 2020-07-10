@@ -44,7 +44,7 @@
         void surf (Input IN, inout SurfaceOutputStandard o)
         {
 			//((_SinTime.w + 1) * 0.5))
-			clip(frac((IN.worldPos.z + IN.worldPos.z * _SinTime.x) * 5) - 0.5);
+			clip(frac((IN.worldPos.z + IN.worldPos.z) * 5) - 0.5);
 
             // Albedo comes from a texture tinted by color
             fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;

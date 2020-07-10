@@ -18,6 +18,9 @@ public class Movement : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+
         move = Input.GetAxis("Vertical");
         turn = Input.GetAxis("Horizontal");
         isRunning = Input.GetKey(KeyCode.LeftShift);
